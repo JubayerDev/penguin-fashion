@@ -1,0 +1,93 @@
+/* Google Fonts Here */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+    /* Utilities */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Styles Here */
+header{
+    background-color: #FFFBF0;
+}
+.nav-logo img{
+    width: 291px;
+    height: 39px;
+    object-fit: cover;
+    margin-left: 135px;
+    cursor: pointer;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 105px;
+}
+.nav-menu ul li{
+    list-style: none;
+    margin: 30px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #3C3C3C;
+}
+
+
+/* Header Section Styles */
+.header-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-info{
+    width: 35%;
+    margin-top: 100px;
+}
+.header-info h1{
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+h1 .orange-color{
+    color: #FABE4C;
+}
+h1 .brown-color{
+    color: #363958;
+}
+.header-info p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3E3E3E;
+}
+.primary-btn{
+    border: none;
+    outline: 0;
+    background-image: linear-gradient(to right, #A4BC46, #85A019);
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 8px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header-img img{
+    width: 100%;
+}
