@@ -149,3 +149,48 @@ h1 .brown-color{
     font-weight: 900;
     margin-right: 79px;
 }
+
+
+/* Contact Styles */
+.contacts-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts{
+    width: 489px;
+}
+.contact-details{
+    display: flex;
+    align-items: center;
+    width: 490px;
+    margin-bottom: 50px;
+}
+.contact-details img{
+    width: 78px;
+    margin-right: 36px;
+}
+.info{
+    margin-right: 60px;
+}
+.info h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #3E3E3E;
+}
+.contact-img img{
+    width: 599px;
+}
+
+/* Footer */
+footer p{
+    text-align: center;
+    color: #3E3E3E;
+    font-size: 14px;
+}
