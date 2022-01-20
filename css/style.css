@@ -81,7 +81,7 @@ h1 .brown-color{
     background-image: linear-gradient(to right, #A4BC46, #85A019);
     padding: 12px 20px;
     border-radius: 5px;
-    margin-top: 8px;
+    margin-top: 15px;
     cursor: pointer;
     color: #fff;
     text-transform: uppercase;
@@ -90,4 +90,62 @@ h1 .brown-color{
 }
 .header-img img{
     width: 100%;
+}
+
+/* Woman Jacket Styles */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.section-title{
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.woman-jacket{
+    display: flex;
+}
+.jackets{
+    margin-right: 50px;
+}
+.jacket-banner{
+    background-color: #F1F1F1;
+    padding: 50px 0;
+    border-radius: 20px;
+    width: 334px;
+}
+.jacket-banner img{
+    width: 203px;
+    margin-left: 65px;
+}
+.jacket-info{
+    margin-top: 20px;
+}
+.jacket-title{
+    font-size: 24px;
+    color: #363958;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.jacket-desc{
+    font-size: 16px;
+    color: #3E3E3E;
+    font-weight: 400px;
+}
+.pricing{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    padding-bottom: 10px;
+}
+.pricing h2{
+    font-size: 36px;
+    color: #FABE4C;
+    font-weight: 900;
+    margin-right: 79px;
 }
